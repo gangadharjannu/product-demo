@@ -17,8 +17,8 @@ const routes: Routes = [
   { path: 'product-overview/:id', component: MonitorComponent },
 
   // otherwise redirect to public
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: '**', redirectTo: 'dashboard' }
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '**', redirectTo: 'login' }
 ];
 
 
